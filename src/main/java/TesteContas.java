@@ -1,6 +1,6 @@
 public class TesteContas {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SaldoInsuficienteException {
         ContaCorrente contaCorrente = new ContaCorrente(2121, 2121);
         contaCorrente.deposita(1000);
         ContaPoupanca contaPoupanca = new ContaPoupanca(2121, 2122);
